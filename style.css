@@ -1,0 +1,62 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f3e5f5; /* Un tono claro de morado */
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #header {
+            background: #7b1fa2; /* Un tono oscuro de morado */
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #4a148c 3px solid; /* Un tono más oscuro de morado */
+        }
+        #header h1 {
+            text-align: center;
+            padding: 5px;
+        }
+        #header h3 {
+            text-align: center;
+            padding: 5px;
+            
+        }
+        #download-link {
+            display: block;
+            width: 300px;
+            height: 50px;
+            margin: 20px auto;
+            background: #4a148c; /* Un tono más oscuro de morado */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            font-size: 25px;
+            border-radius: 18px;
+        }
+        #app-details {
+            text-align: center;
+            padding: 20px;
+        }
+        #platform {
+            display: block;
+            width: 500px;
+            height: 50px;
+            margin: 30px auto;
+            text-align: center;
+            font-family: Arial, sans-serif; /* Cambia la fuente a Arial */
+            color: rgb(104, 19, 201); /* Cambia el color del texto a azul */
+            font-size: 20px; /* Cambia el tamaño de la fuente a 20px */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f2f2f2;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
